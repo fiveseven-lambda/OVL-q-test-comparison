@@ -1,0 +1,16 @@
+[package]
+name = "fast-ovl"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+bytes = "1.1.0"
+clap = "3.1.0"
+itertools = "0.10.3"
+num = "0.4.0"
+ordered-float = "2.8.0"
+primal = "0.3.0"
+rand = "0.8.4"
+rand_distr = "0.4.2"
