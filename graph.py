@@ -24,5 +24,6 @@ for y_dist, y_dist_title, filename in config.y_dists:
     plt.tight_layout()
     plt.savefig('graphs/' + filename + '.eps')
     plt.savefig('graphs/' + filename + '.png')
+    plt.savefig('graphs/' + filename + '.pdf')
     plt.close()
 #    os.system('open graphs/' + filename + '.eps')
